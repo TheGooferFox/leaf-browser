@@ -1,13 +1,24 @@
 {
   "name": "leaf-browser",
+  "version": "0.2.0",
+  "description": "An experimental browser that runs inside Chrome",
   "repository": "https://github.com/samlanning/hex-browser.git",
-  "version": "0.1.2",
+  "author": "Sam Lanning <sam@samlanning.com>",
+  "license": "MIT",
+
+  "scripts": {
+    "start": "grunt",
+    "build": "grunt build",
+    "watch": "grunt watch",
+    "lint": "grunt jshint"
+  },
+
   "devDependencies": {
-    "grunt": "^0.4.5",
-    "grunt-cli": "^0.1.13",
-    "grunt-contrib-jshint": "^1.0.0",
-    "grunt-contrib-less": "^1.2.0",
-    "grunt-contrib-watch": "^0.6.1",
-    "grunt-zip": "^0.17.1"
+    "grunt": "^1.6.1",
+    "grunt-cli": "^1.4.3",
+    "grunt-contrib-jshint": "^3.2.0",
+    "grunt-contrib-less": "^3.0.0",
+    "grunt-contrib-watch": "^1.1.0",
+    "grunt-zip": "^0.18.2"
   }
 }

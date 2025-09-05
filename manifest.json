@@ -1,7 +1,7 @@
 {
   "manifest_version": 3,
   "name": "Leaf Browser Alpha",
-  "version": "0.2.0",
+  "version": "0.3.0",
   "author": "Sam Lanning <sam@samlanning.com>",
   "description": "An experimental browser that runs in Chrome.",
 
@@ -13,6 +13,7 @@
   },
 
   "action": {
+    "default_popup": "index.html",
     "default_icon": {
       "16": "images/icon16.png",
       "32": "images/icon32.png",
